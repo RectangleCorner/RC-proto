@@ -1,0 +1,21 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "RC-HayBox-proto",
+    "description": "Protobuf definitions for HayBox configuration by Jonathan Haylett. A few small edits made by Rectangle Corner.",
+    "keywords": "HayBox, game controller, protocol buffers, protobuf",
+    "authors": {
+        "name": "Jonathan Haylett, Rectangle Corner"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RectangleCorner/RC-proto"
+    },
+    "version": "0.0.1",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/RectangleCorner/RC-proto",
+    "dependencies": {
+        "Nanopb": "^0.4.8"
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}
