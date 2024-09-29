@@ -145,6 +145,7 @@ enum GameModeId {
   // GameModeConfig.custom_mode_config to reference a [CustomModeConfig](#custommodeconfig).
     MODE_SMASH64 = 8;
   MODE_WINGMANFGC = 9;
+  MODE_MELEE_MODZ = 10;
 }
 
 /**
@@ -556,7 +557,7 @@ message Config {
   bool limitOutputs = 12;
   bool travelTime = 13;
   bool meleeCWOS = 14;
-    bool use_teleport_coords = 15;
+  bool true_z_press = 15;
   Coords modx_wd = 16;
   Coords mody_wd = 17;
 }
