@@ -560,6 +560,7 @@ message Config {
   bool true_z_press = 15;
   Coords modx_wd = 16;
   Coords mody_wd = 17;
+  bool meleeModZ = 18;
 }
 
 /**
