@@ -558,9 +558,11 @@ message Config {
   bool travelTime = 13;
   bool meleeCWOS = 14;
   bool true_z_press = 15;
-  Coords modx_wd = 16;
-  Coords mody_wd = 17;
+  uint32 modx_x_wd = 16;
+  uint32 modx_y_wd = 17;
   bool meleeModZ = 18;
+  uint32 mody_x_wd = 19;
+  uint32 mody_y_wd = 20;
 }
 
 /**
