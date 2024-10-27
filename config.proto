@@ -145,7 +145,7 @@ enum GameModeId {
   // GameModeConfig.custom_mode_config to reference a [CustomModeConfig](#custommodeconfig).
     MODE_SMASH64 = 8;
   MODE_WINGMANFGC = 9;
-  MODE_MELEE_MODZ = 10;
+  MODE_RIVALS2 = 10;
 }
 
 /**
