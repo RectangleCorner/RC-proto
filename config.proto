@@ -563,6 +563,7 @@ message Config {
   bool meleeModZ = 18;
   uint32 mody_x_wd = 19;
   uint32 mody_y_wd = 20;
+  bool start_lock = 21;
 }
 
 /**
