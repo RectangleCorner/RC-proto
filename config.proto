@@ -563,8 +563,9 @@ message Config {
   bool meleeModZ = 18;
   uint32 mody_x_wd = 19;
   uint32 mody_y_wd = 20;
-  bool start_lock = 21;
-}
+  bool nerfs = 21;
+  bool nem = 22;
+  }
 
 /**
  * Device info message.
